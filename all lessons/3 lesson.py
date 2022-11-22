@@ -17,7 +17,7 @@
 
 # a = 5
 # b = 2
-# a = a % b
+# a = a == b
 # print(a)
 
 # a = 3.565454545
@@ -32,14 +32,19 @@
 # print(a)
 
 
-
-# a = 0.1 + 0.1 + 0.1
-# a = round(a)
-# print(a)
+# a = 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1
+# print(round(a))
 
 # a = -5
 # a = abs(a)
 # print(a)
+
+# a = 2.0
+# print(a.is_integer())
+
+# text = 'helloworld'
+# print(text)
+
 # a = 2.0
 # a = 5.454
 # a = str(True)
@@ -124,9 +129,25 @@
 # print(text.rstrip('.=+-'))
 # print(text.strip('.=+-'))
 
-# text = 'hello<b> python world'
-# text = text.removeprefix('<b>').removesuffix('</b>')
+# text = 'hello<b> python</b> world</b>'
+# text = text.replace('<b>', '').replace('</b>', '')
 # print(text)
 
-text = 'hello python'
-print('java' not in text)
+# text = 'hello'
+# text = text.center(13)
+# print(text)
+
+# text = 'hello'
+# text = text.zfill(10)
+# print(text)
+
+# text = 'hello'
+# text1 = text.ljust(10, '-')
+# text2 = text.rjust(10, '-')
+# print(text1)
+# print(text2)
+
+
+
+# text = 'hello python'
+# print('java' in text)
