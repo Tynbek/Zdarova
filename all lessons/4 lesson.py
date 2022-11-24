@@ -1,16 +1,16 @@
-# lst = ['hello', 1234, True]
-# numbers = [i for i in range(1, 101)]
+# lst = ['hello', 1234, True]               #Список
+# numbers = [i+2 for i in range(1, 101)]      # Генератор списка
 # print(numbers)
-# print(lst[0])
-# print(lst[:2])
-# print(list('hello'))
+# print(lst[0]) #вывод по индексу
+# print(lst[:2])  # вывод по индексам
+# print(list('hello'))  # функция для создания списка
 
-# words = ['hello', 'world', 'python']
-# print(words[1][4])
+words = ['hello', 'world', 'python']
+print(words[1][4])      # Обращение к символу элемента списка
 
 # numbers = [1, 2, 3, 4]
 # lst = [numbers, 5, 6, 7]
-# numbers.append(5)
+# numbers.append(5)     #Метод довления в конец
 # print(lst)
 
 # numbers = [1, 2, 3, 4, 5]
@@ -135,10 +135,10 @@
 # print(user)
 # print(new_user)
 
-numbers1 = [1, 2, 3, 4]
-numbers2 = [4, 5, 6]
-numbers3 = sum(numbers1 + numbers2)
-print(numbers1)
-print(numbers2)
-print(numbers3)
+# numbers1 = [1, 2, 3, 4]
+# numbers2 = [4, 5, 6]
+# numbers3 = sum(numbers1 + numbers2)
+# print(numbers1)
+# print(numbers2)
+# print(numbers3)
 
