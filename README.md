@@ -1,9 +1,5 @@
 # Zdarova
 
-## Zdarova
+~~FUCK YOU BASTARD~~
 
-_Zdarova_
-
-**Zdarova**
-
-`Zdarova`
+`WELCOME TO THE CLUB BUDDY!`
