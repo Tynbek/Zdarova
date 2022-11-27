@@ -120,9 +120,9 @@
 # print(text.endswith('hon'))     # на то что заканчивается на укзанную подстроку
 
 # text = 'HELLO PYTHON'
-# text = text.islower()
-# text = text.isupper()
-# text = text.istitle()
+# text = text.islower() # Состоит ли строка только из символов в нижнем регистре
+# text = text.isupper() # Состоит ли строка только из символов в верхнем регистре
+# text = text.istitle() #Начинаются ли слова в строке с заглавной буквы, а все остальные в нижнем регистре
 # text = text.lower() #делает буквы маленькими
 # print(text)
 # text = text.upper() #делает буквы большими
@@ -166,5 +166,5 @@
 
 
 
-# text = 'hello python'
-# print('java' in text)         # проверка на вхождение и не вхождение
+# text = 'hello python java'
+# print('java' not in text)         # проверка на вхождение и не вхождение
