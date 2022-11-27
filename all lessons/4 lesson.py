@@ -212,7 +212,7 @@
 #     'name': 'alex',
 #     'city': 'Minsk',
 #     'age': 26,
-}
+# }
 # user['age'] = 35 #Можно потом обратиться и поменять
 
 # user['languages'] = ['ru', 'en'] #Обращаемся по несуществующему ключу, чтобы его объявить
@@ -270,5 +270,3 @@
 # print(numbers1)
 # print(numbers2)
 # print(numbers3)
-
-
